@@ -156,11 +156,10 @@ Hosted on Hugging Face Spaces using Docker.
 
 ---
 
-## 💬 Let's Connect!
+## 💬 Let's Connect!    
 
-📧 **Email**: mahammadshama77@gmail.com
-🔗 **LinkedIn**: Your LinkedIn Profile
-📝 **GitHub**: Your GitHub Profile
+📧 **Email**: mahammadshama77@gmail.com        
+🔗 **LinkedIn**: [Profile](https://www.linkedin.com/in/mahammad-shama-5b50632b7)    
 
 
 ---
