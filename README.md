@@ -10,7 +10,7 @@ Built an ML Model to predict salaries for Data Science roles in India. Scraped j
 
 ## Project Overview   
 
-This is a full end-to-end machine learning project focused on predicting salaries for data science-related job roles in India. The project covers web scraping, data preprocessing, feature engineering, model building, evaluation, and deployment. The final model is deployed using Solara on Hugging Face Spaces.   
+This is a full end-to-end machine learning project focused on predicting salaries for data science-related job roles in India. The project covers web scraping, data preprocessing, feature engineering, model building, evaluation, and deployment. The final model is deployed using **Solara on Hugging Face Spaces.**   
 
 ## Problem Statement    
 
@@ -22,15 +22,19 @@ Many job postings do not disclose salary information, making it difficult for jo
 
 ## Data Collection    
 
-Scraped 7,293 job postings from Naukri.com for 18 data-related roles:    
+**Scraped 7,293** job postings from Naukri.com for **18 data-related roles:**    
 
 Data Scientist, Data Analyst, ML Engineer, AI Engineer, Data Engineer, etc.      
 
 
 Extracted 7 key columns: Role, Company Name, Experience, Salary, Location, etc.    
 
+---
+
 
 ## Data Preprocessing & Feature Engineering     
+
+#### 1. Feature Creation & Transformation
 
 1. **Company Type**: Classified into 5 categories – MNC, Startup, Product-based, Service-based, Mid-size.   
 
@@ -44,7 +48,7 @@ Extracted 7 key columns: Role, Company Name, Experience, Salary, Location, etc.
 4. **Job Mode**: Classified jobs as Remote, Onsite, Hybrid.   
 
 
-5.**Salary Prediction for Missing Values:**   
+#### 2.Salary Prediction for Missing Values:  
 
 Many job postings did not disclose salary, making salary prediction a major challenge.   
 
@@ -56,7 +60,7 @@ Applied city multipliers to adjust salaries based on location.
 
 
 
-6. **Final Dataset Size:**   
+#### 3. Final Dataset Size:
 
 Initially scraped: 7,293 rows    
 
@@ -66,13 +70,13 @@ After salary estimation: 1,730 rows (used for model building).
 
 
 
-7. **Additional Features Created:**
+#### 4. Additional Features Created:
 
 Salary Category, City Type, Region, Experience Level, Job Level.   
 
+**Encoding**: Manually mapped categorical variables into numerical values.   
 
-
-8. **Encoding**: Manually mapped categorical variables into numerical values.   
+---
 
 
 
@@ -99,6 +103,7 @@ MAE: 3.74
 
 RMSE: 5.43   
 
+---
 
 
 
@@ -106,9 +111,13 @@ RMSE: 5.43
 
 Saved model using pickle.   
 
-Deployed using Solara.    
+Deployed using Solara, a modern Python-based UI framework.    
 
 Hosted on Hugging Face Spaces using Docker.   
+
+🔗[Live App](https://shama7-Salary-Prediction-App.hf.space)
+
+---
 
 
 ## Future Improvements
@@ -116,6 +125,9 @@ Hosted on Hugging Face Spaces using Docker.
 🚀 Expand dataset by manually estimating more salaries.   
 🚀 Automate salary estimation using web scraping & NLP techniques.   
 🚀 Improve model accuracy by experimenting with deep learning models.    
+
+---
+
 
 ## Technologies Used
 
@@ -130,9 +142,33 @@ Hosted on Hugging Face Spaces using Docker.
 **Deployment: Solara, Hugging Face Spaces, Docker**
 
 
+---
+
+
 ## Key Takeaways
 
-✅ End-to-end ML project, covering everything from scraping to deployment.    
+✅ **End-to-end ML project**, covering everything from **scraping to deployment.**      
 ✅ Solves a real-world problem: Salary prediction for job seekers.                      
 ✅ Showcases multiple ML techniques: Feature engineering, model stacking, and deployment.   
-✅ Successfully deployed model, making it accessible to users.     
+✅ Successfully deployed model, making it accessible to users.  
+✅ Provides practical insights into salary trends for Data Science roles in Inida.
+
+
+---
+
+## 💬 Let's Connect!
+
+📧 **Email**: mahammadshama77@gmail.com
+🔗 **LinkedIn**: Your LinkedIn Profile
+📝 **GitHub**: Your GitHub Profile
+
+
+---
+
+⭐ If you found this project useful, don’t forget to star this repository!
+
+
+---
+
+
+
