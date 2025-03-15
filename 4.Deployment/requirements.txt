@@ -1,0 +1,7 @@
+solara
+pandas
+joblib
+scikit-learn==1.2.2
+lightgbm
+xgboost==2.0.3
+catboost
