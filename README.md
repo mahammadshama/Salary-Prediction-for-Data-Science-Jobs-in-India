@@ -50,13 +50,24 @@ Extracted 7 key columns: Role, Company Name, Experience, Salary, Location, etc.
 
 #### 2.Salary Prediction for Missing Values:  
 
-Many job postings did not disclose salary, making salary prediction a major challenge.   
+Many job postings did not disclose salary, making salary prediction a major challenge. 
 
-Manually scraped salary estimates from AmbitionBox for key roles.   
 
-Used interpolation to estimate missing salaries based on experience.   
+###### 📌 Handling Missing Salaries
 
-Applied city multipliers to adjust salaries based on location.   
+**Manual Data Collection**: Scraped salary details from AmbitionBox for accuracy.   
+
+**Interpolation for Missing Salaries:**    
+
+Used known salary ranges for each role and company.    
+
+Applied linear interpolation to estimate salaries for experience gaps.    
+
+Example: If a Data Science Manager (7-16 years) has a salary range of ₹24-55 LPA, estimated missing values for other experience levels like (5-10 years, 3-7 years, etc.).    
+
+Final Data: Ensured a complete salary dataset with real + estimated values.   
+
+Applied city multipliers to adjust salaries based on location.       
 
 
 
